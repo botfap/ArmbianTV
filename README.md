@@ -1,6 +1,10 @@
-# Armbian #
+Fork of 150balbes/Build-Armbian. This is NOT an official or supported Armbian build
 
-Debian based Linux for ARM based single-board computers
+# ArmbianTV #
+
+Debian Buster, Ubuntu Bionic/Disco based Linux for H96 MAX RK3399, AMLogic G12A/B TV Boxes & Odroid N2
+
+Armbian 5.98, linux v5.3.0
   
 [https://www.armbian.com](https://www.armbian.com "Armbian")
 
@@ -19,7 +23,7 @@ Supported build environment is **Ubuntu Bionic 18.04 x64** ([minimal iso image](
 **Execution**
 
 	apt-get -y install git
-	git clone https://github.com/150balbes/Build-Armbian
+	git clone https://github.com/botfap/ArmbianTV
 	cd build
 	./compile.sh
 
